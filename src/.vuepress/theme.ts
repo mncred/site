@@ -7,8 +7,8 @@ export default hopeTheme({
   favicon: "/favicon.png",
 
   author: {
-    name: "Юрий Кулагин",
-    url: "https://t.me/jkulvich",
+    name: "Minecraft RED",
+    url: "https://vk.com/mncred",
   },
 
   logo: "/logo.png",
@@ -23,15 +23,15 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Minecraft RED Team",
+  footer: "<a href='https://t.me/jkulvich'>Прямая обратная связь</a>",
 
   displayFooter: true,
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/admin/": {
+        hint: "Страница с заметками для администрации. Вам точно нужно быть здесь?",
+        password: ["mncred"],
       },
     },
   },
@@ -110,9 +110,28 @@ export default hopeTheme({
     // },
   },
 
+  blog: {
+    description: 'Приватные игровые сервера без доната',
+    medias: {
+      vk: 'https://vk.com/mncred',
+      github: 'https://github.com/mncred',
+    },
+    sidebarDisplay: 'none',
+  },
+
   plugins: {
+    slimsearch: {},
+    blog: {
+      article: '/blog/articles/',
+      filter: ({ frontmatter, filePathRelative }) => {
+        return /^blog\/articles\//.test(filePathRelative ?? '')
+      },
+    },
+
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
+
+    // already configured
     comment: {
       provider: "Giscus",
       repo: "mncred/site",

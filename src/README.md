@@ -11,6 +11,14 @@ actions:
     icon: rocket-launch-rounded
     link: ./launcher/get.html
     type: primary
+  - text: О сервере
+    icon: tabler:server
+    link: ./servers/stone/about.html
+    type: secondary
+  - text: Блог
+    icon: material-symbols:article-outline-rounded
+    link: ./blog/
+    type: secondary
 
 #   - text: Руководство
 #     icon: book-2-outline-rounded

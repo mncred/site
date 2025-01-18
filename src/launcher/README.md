@@ -1,9 +1,9 @@
 ---
 title: Лаунчер
 index: false
-icon: rocket-launch-rounded
+icon: laptop-chromebook-outline-rounded
 ---
 
-![Лаунчер](https://github.com/user-attachments/assets/726c8c96-35f0-4867-8608-d025c3fa2ece)
+Лаунчер позволяет войти в аккаунт, загрузить ресурсы (включая моды и датапаки) и запустить игру
 
 <Catalog />
