@@ -1,7 +1,7 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
+  // "/",
   "/launcher/",
   "/servers/",
   "/blog/",
@@ -18,12 +18,7 @@ export default navbar([
         text: "Видео & Стримы",
         icon: "tabler:video-filled",
         link: "https://vkvideo.ru/@mncred"
-      },
-      {
-        text: "Прямая связь & Помощь",
-        icon: "ic:baseline-telegram",
-        link: "https://t.me/jkulvich"
-      },
+      }
     ],
   },
   // "/demo/",
