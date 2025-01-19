@@ -4,7 +4,7 @@ export default navbar([
   // "/",
   "/launcher/",
   "/servers/",
-  "/blog/",
+  // "/blog/",
   {
     text: "Сообщество",
     icon: "tabler:video",

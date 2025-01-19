@@ -19,10 +19,14 @@ actions:
     icon: tabler:video
     link: https://vkvideo.ru/@mncred
     type: secondary
-  - text: Блог
-    icon: material-symbols:article-outline-rounded
-    link: ./blog/
+  - text: Сообщество
+    icon: uil:vk
+    link: https://vk.com/mncred
     type: secondary
+  # - text: Блог
+  #   icon: material-symbols:article-outline-rounded
+  #   link: ./blog/
+  #   type: secondary
 
 #   - text: Руководство
 #     icon: book-2-outline-rounded

@@ -151,6 +151,8 @@ export default hopeTheme({
       prefix: "material-symbols:",
     },
 
+    seo: {},
+
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
